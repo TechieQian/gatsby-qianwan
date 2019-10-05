@@ -15,7 +15,6 @@ const IndexPage = () => (
       <Image />
       <SomeComponent message="world" />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
