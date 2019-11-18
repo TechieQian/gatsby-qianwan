@@ -1,28 +1,19 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import "../style/main.scss"
+import "bulma/css/bulma.css"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-      <SomeComponent message="world" />
-    </div>
-  </Layout>
+  <article>
+    <span>
+      <b>Hello!</b> My name is Qian and I am a software engineer with 10 years
+      experience in fintech. I began creating webpages during the geocities days
+      and had the pleasure/pain of coding through the webdev eras. In college I
+      majored in computer engineering and obsessed over FPGA and C++. But I
+      eventually found my way back home in webdev. My comfort is ASP.NET and
+      React/TypeScript.
+    </span>
+  </article>
 )
-
-interface ComponentProps {
-  message: string
-}
-const SomeComponent = (props: ComponentProps) => {
-  return <div> hello {props.message} </div>
-}
 
 export default IndexPage
