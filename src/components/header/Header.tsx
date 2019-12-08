@@ -1,8 +1,8 @@
 import React, { useMemo } from "react"
 import Img from "./Qian"
+import "@fortawesome/fontawesome-free/css/all.css"
 
 const Header = function(props) {
-  console.log(" rerendering header")
   return (
     <header className="container">
       <section className="header-top">
