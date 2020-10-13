@@ -1,4 +1,4 @@
-import "whatwg-fetch"
+//import "whatwg-fetch" - polyfills has some error when used in Gatsby.
 
 export default {
   postForm: function(data) {
