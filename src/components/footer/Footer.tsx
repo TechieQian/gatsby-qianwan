@@ -8,7 +8,6 @@ export default function Footer() {
       <div>This is a static page using React, TypeScript, and AWS.</div>
       <div className={styles.footer}>
         <Link to="/">About</Link>
-        <Link to="/faq/">FAQ</Link>
         <Link to="/resume/">Resume</Link>
       </div>
       <p style={{ marginTop: "5px" }}>© 2020 by qian</p>

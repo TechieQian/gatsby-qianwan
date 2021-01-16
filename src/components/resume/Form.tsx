@@ -6,6 +6,7 @@ import { Link } from "gatsby"
 interface FormProps {
   onPost: any
 }
+
 export default function Form(props: FormProps) {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")

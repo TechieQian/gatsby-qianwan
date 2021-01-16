@@ -19,8 +19,7 @@ const AboutPage = () => (
   <article className={styles.about}>
     <Question
       question="What is this website?"
-      answer="This web app acts as my online resume. It is an overly simplistic page that showcases some React expertise. This page also answers
-      some popular questions recruiters love to ask. So I thought I would put down some sincere answers here."
+      answer="This web app acts as my online resume. All the cool kids are doing it these days so I thought I'd put something together too."
     />
     <Question
       question="What do you enjoy doing?"
