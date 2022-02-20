@@ -14,7 +14,7 @@ export default {
     ).then(() => {
       // Hard-coding it for now!
       const resumeUrl =
-        "https://s3.us-east-2.amazonaws.com/qianwan.dev/Qian_Wan_0121.docx"
+        "https://s3.us-east-2.amazonaws.com/qianwan.dev/QianWan_2022.pdf"
       https: window.open(resumeUrl)
     })
   },
